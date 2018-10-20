@@ -21,8 +21,10 @@ fetch(req).then((res)=>{
 			ArticleContent+='<img class="newsimg" src="'+data.articles[key].urlToImage+'">';
 			
 			ArticleContent+='<h1 class="heading">'+data.articles[key].title+'</h1>';
-			ArticleContent+='<p>'+data.articles[key].content+'</p>';
 			
+			if(data.articles[key].content!=null){
+			ArticleContent+='<p>'+data.articles[key].content+'</p>';
+			}
 			
 			
 			ArticleContent+='</div>';
