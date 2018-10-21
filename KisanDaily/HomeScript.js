@@ -1,23 +1,10 @@
 // JavaScript Document
 
-$(document).ready(function() {
-	'use strict';
+function Scheme()
+{
+	document.getElementById("scheme").style.height= "400px";
+	document.getElementById("scheme").style.opacity= "1";
 	
-	var controller = new ScrollMagic.Controller();
 	
 	
-	var Sike = new ScrollMagic.Scene({
-		
-		triggerElement: '.stickyLegend'
-		
-		
-		
-		
-	})
-	
-	.setPin('.stickyLegend')
-	.addTo(controller)
-	.addIndicators();
-
-	
-});
+}

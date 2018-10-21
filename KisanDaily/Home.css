@@ -52,3 +52,18 @@
 	text-align: left;
 }
 
+#scheme
+{
+	width: 820px;
+	height: 0px;
+	opacity: 0;
+	background-color: aquamarine;
+	align-content: center;
+	transition: 1s ease-in;
+	position: relative;
+	top: -2000px;
+	left: 375px;
+	
+}
+
+
